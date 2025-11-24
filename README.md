@@ -6,13 +6,13 @@ The profiles allow users to apply classic Fujifilm looks (like Classic Chrome, A
 Contents
 The repository structure should look like this:
 /
-├── README.md           # This file
-├── LICENSE             # Project license (e.g., MIT, if you choose one)
+├── README.md                 # This file
+├── LICENSE                   # Project license (e.g., MIT, if you choose one)
 └── XMP_Profiles/
-    ├── CC.xmp (convert from Flog2)
-    ├── FLOG2C-CC.xmp (convert from Flog2c)
+    ├── CC.xmp                # Converted from F-Log2 to Rec.709 color space
+    ├── FLOG2C-CC.xmp         # Converted from F-Log2 (Compressed) to Rec.709 color space
     └── ... (other converted profiles)
-/
+    
 ## Installation (Importing into Lightroom)
 The .xmp files can be imported into all modern versions of Adobe Lightroom. The specific steps vary slightly depending on the platform.
 ### For Lightroom Classic (Desktop)
