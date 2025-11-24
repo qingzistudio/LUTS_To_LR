@@ -5,6 +5,7 @@ Fujifilm provides official 3D LUTs as .cube files for video color grading. This 
 The profiles allow users to apply classic Fujifilm looks (like Classic Chrome, Astia, Provia, etc.) to their RAW or JPEG photos directly within Lightroom, offering greater flexibility and creative control.
 Contents
 The repository structure should look like this:
+
 /
 ├── README.md                 # This file
 ├── LICENSE                   # Project license (e.g., MIT, if you choose one)
