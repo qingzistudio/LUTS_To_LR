@@ -8,10 +8,9 @@ The repository structure should look like this:
 ```
 /
 ├── README.md                 # This file
-├── LICENSE                   # Project license (e.g., MIT, if you choose one)
 └── XMP_Profiles/
-    ├── CC.xmp                # Converted from F-Log2 to Rec.709 color space
-    ├── FLOG2C-CC.xmp         # Converted from F-Log2 (Compressed) to Rec.709 color space
+    ├── CC.xmp                # Converted from F-Log2 to Rec.709 color space, good for video editing 
+    ├── FLOG2C-CC.xmp         # Converted from F-Log2 (Compressed) to Rec.709 color space, good for photo editing
     └── ... (other converted profiles)
 ```
 ## Installation (Importing into Lightroom)
